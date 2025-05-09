@@ -516,7 +516,7 @@ MDBoxLayout:
                         text: "Rate Us"
                         on_press:
                             nav_drawer.set_state("close")
-                            app.rate_us_link("com.akm_appmakers")
+                            app.rate_us_link("your_link)")
                         IconLeftWidget:
                             icon: "star"
 ''') 
@@ -525,16 +525,16 @@ MDBoxLayout:
     def switch_tab(self):
         self.root.ids.tabs.switch_to(self.root.ids.output_tab)
 
-    def rate_us_link(self,package_name):
-        link = f"https://play.google.com/store/apps/details?id={package_name}"
+    def rate_us_link(self,your_link):
+        link = your_link
         open_link(link)
 
     def feedback(self):
-        link = "https://forms.gle/HLkbHMnBzFJ9JQWh7"
+        link = ""  # your form link
         open_link(link)
 
     def error(self):
-        link = "https://forms.gle/Vo9qjkBhuovbapF17"
+        link = ""   # your report error link
         open_link(link)
 
     def search(self):
