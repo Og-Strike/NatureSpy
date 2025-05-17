@@ -4,7 +4,7 @@ The goal of this project is to create a **robust system for identifying and clas
 
 ---
 
-## 🚀 Approach
+## 🚀 Approach!
 
 ### 🔹 First Layer: ResNet18 (General Classification)
 - **Model**: Fine-tuned ResNet18
